@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual env
+venv/
+env/
+.venv/
+
+# Data and outputs
+*.npy
+*_embeddings_*.npy
+*_metadata.json
+out*.json
+out_*.json
+14e9e4cc-9174-48da-ad02-abb1330b48fe.json
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
