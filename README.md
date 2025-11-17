@@ -1,6 +1,8 @@
+<<<<<<< HEAD
 # Narrative Builder
+# Kautilya_narrative_builder
 
-This script builds a narrative from a JSON news dataset.
+This repository contains `narrative_builder.py`, a script that builds structured narratives from a JSON news dataset.
 
 Usage examples:
 
@@ -24,5 +26,5 @@ Requirements:
 - See `requirements.txt`.
 
 Notes:
-- Dataset must be a JSON array of article objects containing at least `date`, `headline`/`title`, `url`, `summary`/`text`, and `source_rating`.
+- Dataset must be a JSON array of article objects (or an object with an `items` array) containing at least `date`/`published_at`, `headline`/`title`, `url`, `summary`/`text`/`story`, and `source_rating`.
 - The script filters articles with `source_rating > 8` by default.
