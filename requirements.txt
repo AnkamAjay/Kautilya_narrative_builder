@@ -1,0 +1,10 @@
+sentence-transformers
+scikit-learn
+networkx
+nltk
+tqdm
+python-dateutil
+numpy
+# Optional but recommended for larger datasets / faster vector search
+faiss-cpu
+hdbscan
